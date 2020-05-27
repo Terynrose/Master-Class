@@ -1,0 +1,15 @@
+/* =============
+    Section-1
+============= */
+
+#section-1 {
+    background-image: url('../img/food hero.png');
+    background-position: center;
+    background-size: cover;
+    height: 420px;
+
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-areas: ". section-1 .";
+    padding: 80px;
+}
