@@ -386,15 +386,177 @@ textarea {
     Footer
 ============= */
 /* =============
+    Header
+============= */
+header {
+  background-color: #2BABE1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 64px;
+  position: fixed;
+}
+header > div {
+  display: grid;
+  grid-template-columns: 40px auto 40px;
+  grid-template-areas: ". nav .";
+}
+header > #nav-container {
+  grid-area: nav;
+}
+header > #nav-container > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: ". . . . . .";
+  list-style: none;
+}
+header > #nav-container > ul #logo img {
+  width: 10px;
+  padding: 10px;
+}
+
+/* =============
     Section-1
 ============= */
 #section-1 {
-  background-image: url("../img/food hero.png");
+  background-image: url("../img/hero.png");
   background-position: center;
   background-size: cover;
-  height: 420px;
+  width: 100%;
+  height: 500px;
+}
+
+/* =============
+    Section-2
+============= */
+#section-2 {
   display: grid;
   grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-1 .";
-  padding: 80px;
+  grid-template-areas: ". section-2 .";
+  padding: 40px;
+}
+#section-2 > article {
+  grid-area: section-2;
+  text-align: center;
+}
+#section-2 > article h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #EC1369;
+  margin: 0;
+  padding: 12px;
+}
+#section-2 > article hr {
+  border: 1px solid #2BABE1;
+  width: 700px;
+}
+#section-2 > article h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.9375rem;
+  color: #000;
+  font-weight: 200;
+}
+
+/* =============
+    Section-3
+============= */
+#section-3 {
+  display: grid;
+  grid-template-columns: 30px 2fr 3fr 90px;
+  grid-template-areas: ". aside section-3 .";
+  padding: 0px;
+}
+#section-3 > aside {
+  grid-area: aside;
+}
+#section-3 > aside img {
+  width: 500px;
+  position: left;
+}
+#section-3 > div {
+  grid-area: section-3;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.3125rem;
+  font-weight: 200;
+  line-height: 1.6;
+  color: #000;
+  margin: 0;
+}
+#section-3 > div span {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.6;
+  color: #EC1369;
+  margin: 0;
+}
+
+/* =============
+    Section-4
+============= */
+#section-4 {
+  display: grid;
+  grid-template-columns: 10px 1fr 1fr 1fr 10px;
+  grid-template-areas: ". students campus explore .";
+  margin-top: 100px;
+}
+#section-4 #students {
+  grid-area: students;
+}
+#section-4 #campus {
+  grid-area: campus;
+}
+#section-4 #explore {
+  grid-area: explore;
+}
+#section-4 img {
+  width: 450px;
+  height: 300px;
+}
+#section-4 h3 {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5625rem;
+  width: 450px;
+}
+#section-4 p {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 200;
+  width: 450px;
+}
+#section-4 h4 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 300;
+  background-color: #2BABE1;
+  width: 100px;
+  padding: 2px;
+}
+
+/* =============
+    Section-5
+============= */
+#section-5 {
+  background-image: url("../img/frame2");
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". section-5 .";
+}
+#section-5 img {
+  width: 1200px;
+  margin: 100px;
+}
+#section-5 p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 200;
+  width: 900px;
+}
+#section-6 img {
+  width: 500px;
 }

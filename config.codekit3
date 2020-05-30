@@ -21,7 +21,7 @@
 		},
 	"/deploy/img/campus.jpg": {
 		"ft": 16384,
-		"iS": 279555,
+		"iS": 91011,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/campus.jpg",
@@ -41,11 +41,66 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/food hero.png": {
+	"/deploy/img/frame.png": {
+		"ft": 32768,
+		"iS": 14671,
+		"oA": 0,
+		"oAP": "/deploy/img/frame.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/frame2.png": {
+		"ft": 32768,
+		"iS": 21586,
+		"oA": 0,
+		"oAP": "/deploy/img/frame2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/hero.png": {
 		"ft": 32768,
 		"iS": 2464944,
 		"oA": 0,
-		"oAP": "/deploy/img/food hero.png",
+		"oAP": "/deploy/img/hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/Logo.jpg": {
+		"ft": 16384,
+		"iS": 26602,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/Logo2.jpg": {
+		"ft": 16384,
+		"iS": 607003,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/Logo2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/picframe.png": {
+		"ft": 32768,
+		"iS": 803489,
+		"oA": 0,
+		"oAP": "/deploy/img/picframe.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -121,6 +176,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/footer.html",
+		"oF": 0
+		},
+	"/dev/header.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/header.html",
 		"oF": 0
 		},
 	"/dev/index.kit": {
@@ -285,6 +348,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/sections/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dev/scss/sections/_section-1.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -350,6 +426,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/dev/scss/sections/_section-6.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-6.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -401,6 +490,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/section-5.html",
+		"oF": 0
+		},
+	"/dev/section-6.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/section-6.html",
 		"oF": 0
 		}
 	},
