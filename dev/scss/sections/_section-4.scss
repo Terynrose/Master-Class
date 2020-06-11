@@ -4,26 +4,183 @@
 
 #section-4 {
     display: grid;
-    grid-template-columns: 10px 1fr 1fr 1fr 10px;
-    grid-template-areas: ". students campus explore .";
-    margin-top: 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px, auto;
+    grid-template-areas:
+        "students"
+        "campus"
+        "explore";
+
+    @include lg {
+        display: grid;
+        grid-template-columns: 10px 1fr 1fr 1fr 10px;
+        grid-template-areas: ". students campus explore .";
+        margin: 100px 10px 20px 10px;
+    }
+
 
     #students {
         grid-area: students;
+        margin: 30px auto;
+
+
+        @include lg {
+            margin: 0 auto;
+        }
+
+        img {
+            width: 450px;
+            height: 300px;
+            border: 4px solid $orange;
+            border-radius: 20px;
+        }
+
+        h4 {
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            font-size: rem-calc(16);
+            font-weight: 400;
+            background-color: $orange;
+            width: 100px;
+            margin: 0 auto;
+            padding: 8px 15px;
+
+            @include lg {
+                margin: 0 auto;
+            }
+
+            a {
+                display: block;
+                color: $black;
+                text-decoration: none !important;
+                -webkit-transition: all .25s ease;
+                -moz-transition: all .25s ease;
+                -ms-transition: all .25s ease;
+                -o-transition: all .25s ease;
+                transition: all .25s ease;
+            }
+
+            a:link {
+                text-decoration: none;
+            }
+
+            a:visited {
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: none;
+                background: $orange;
+                color: white;
+            }
+        }
     }
 
     #campus {
         grid-area: campus;
+        margin: 30px auto;
+
+
+        @include lg {
+            margin: 0 auto;
+        }
+
+        img {
+            width: 450px;
+            height: 300px;
+            border: 4px solid $blue;
+            border-radius: 20px;
+        }
+
+        h4 {
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            font-size: rem-calc(16);
+            font-weight: 400;
+            background-color: $blue;
+            width: 100px;
+            margin: 0 auto;
+            padding: 8px 15px;
+
+            a {
+                display: block;
+                color: $black;
+                text-decoration: none !important;
+                -webkit-transition: all .25s ease;
+                -moz-transition: all .25s ease;
+                -ms-transition: all .25s ease;
+                -o-transition: all .25s ease;
+                transition: all .25s ease;
+            }
+
+            a:link {
+                text-decoration: none;
+            }
+
+            a:visited {
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: none;
+                background: $blue;
+                color: white;
+            }
+        }
     }
 
     #explore {
         grid-area: explore;
+        margin: 30px auto;
+
+        @include lg {
+            margin: 0 auto;
+        }
+
+        img {
+            width: 450px;
+            height: 300px;
+            border: 4px solid $green;
+            border-radius: 20px;
+        }
+
+        h4 {
+            text-align: center;
+            font-family: "Poppins", sans-serif;
+            font-size: rem-calc(16);
+            font-weight: 400;
+            background-color: $green;
+            width: 100px;
+            margin: 0 auto;
+            padding: 8px 15px;
+
+            a {
+                display: block;
+                color: $black;
+                text-decoration: none !important;
+                -webkit-transition: all .25s ease;
+                -moz-transition: all .25s ease;
+                -ms-transition: all .25s ease;
+                -o-transition: all .25s ease;
+                transition: all .25s ease;
+            }
+
+            a:link {
+                text-decoration: none;
+            }
+
+            a:visited {
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: none;
+                background: $green;
+                color: white;
+            }
+        }
     }
 
-    img {
-        width: 450px;
-        height: 300px;
-    }
 
     h3 {
         text-align: left;
@@ -38,15 +195,5 @@
         font-size: rem-calc(15);
         font-weight: 200;
         width: 450px;
-    }
-
-    h4 {
-        text-align: center;
-        font-family: "Poppins", sans-serif;
-        font-size: rem-calc(15);
-        font-weight: 300;
-        background-color: $blue;
-        width: 100px;
-        padding: 2px;
     }
 }

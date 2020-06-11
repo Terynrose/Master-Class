@@ -74,6 +74,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/icons.png": {
+		"ft": 32768,
+		"iS": 122934,
+		"oA": 0,
+		"oAP": "/deploy/img/icons.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/Logo.jpg": {
 		"ft": 16384,
 		"iS": 26602,

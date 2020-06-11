@@ -2,38 +2,69 @@
     Header
 ============= */
 
-header {
-    background-color: $blue;
-    left: 0;
-    top: 0;
+nav {
     width: 100%;
+    background: $blue;
+    display: grid;
+    overflow: hidden;
     height: 64px;
+    text-align: center;
     position: fixed;
+
     
-    >div {
+    >ul {
+        margin: 0px;
+        padding: 0;
+        list-style: none;
         display: grid;
-        grid-template-columns: 40px auto 40px;
-        grid-template-areas: ". nav ."
+        grid-template-columns: 100px 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: ". . . . . .";
 
-    }
+        >li {
+            margin: 0 auto;
+            padding: 0;
+            float: left;
+            position: relative;
+            height: 25px;
 
-    >#nav-container {
-        grid-area: nav;
-
-        >ul {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-            grid-template-areas: ". . . . . .";
-            list-style: none;
-
-            #logo {
-                img {
-                    width: 10px;
-                    padding: 10px;
-                }
+            >a {
+                height: 64px;
+                width: 160px;
+                color: $black;
+                display: block;
+                font-family: "Poppins", sans-serif;
+                font-size: rem-calc(18);
+                font-weight: 300px;
+                line-height: 14px;
+                padding: 10px 50px;
+                text-align: center;
+                text-decoration: none;
+                -webkit-transition: all .25s ease;
+                -moz-transition: all .25s ease;
+                -ms-transition: all .25s ease;
+                -o-transition: all .25s ease;
+                transition: all .25s ease;
             }
 
-            
+
         }
+        
+        li:hover a {
+            background: $darkblue;
+            color: $white;
+            height: 64px;
+            margin: 0px;
+            width: 160px;
+        }
+
+        #logo {
+            margin: 0 40px;
+
+            img {
+                height: 64px;
+                width: 64px;
+            }
+        }
+
     }
 }
