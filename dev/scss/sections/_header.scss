@@ -2,7 +2,10 @@
     Header
 ============= */
 
+
 nav {
+    z-index: 1;
+
     width: 100%;
     background: $blue;
     display: grid;

@@ -389,6 +389,7 @@ textarea {
     Header
 ============= */
 nav {
+  z-index: 1;
   width: 100%;
   background: #2BABE1;
   display: grid;
@@ -701,6 +702,7 @@ nav > ul #logo img {
     Section-5
 ============= */
 #section-5 {
+  overflow: hidden;
   background-image: url("../img/frame2.png");
   background-position: center;
   background-size: cover;
