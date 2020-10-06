@@ -449,6 +449,7 @@ nav > ul #logo img {
     Section-1
 ============= */
 #section-1 {
+  overflow: hidden;
   background-image: url("../img/hero.png");
   background-position: center;
   background-size: cover;
