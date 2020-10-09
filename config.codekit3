@@ -293,6 +293,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/sections/section-5-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/sections/section-5-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/sections/section-5.js": {
 		"bF": 0,
 		"ft": 64,
@@ -300,6 +311,17 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "/dev/js/sections/section-5-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/sections/section-6-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/sections/section-6-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0

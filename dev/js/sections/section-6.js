@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const section6TL = gsap.timeline();
 
-section6TL.from("#section-6 article img", {duration: 0.5, alpha:0, x:-300, rotate: -90})
+section6TL.from("#section-6 article img", {duration: 1, alpha:0, x:-300, rotate: -90})
             .from("#section-6 article h3", {duration: 0.5, alpha:0, x:300, rotate: 90})
             .from("#section-6 article p", {duration: 0.5, alpha:0}, "third")
             .from("#section-6 article h4", {duration: 0.5, alpha:0, y:400}, "third")
